@@ -1,0 +1,5 @@
+FROM docker.io/mysql:8.0
+VOLUME /var/lib/mysql
+ENV MYSQL_ROOT_PASSWORD=root123
+EXPOSE 3306
+CMD ["mysqld"]
